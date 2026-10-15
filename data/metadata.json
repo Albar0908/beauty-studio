@@ -1,0 +1,27 @@
+{
+  "shared_unique_urls": 3690,
+  "quantity_mismatches": 2329,
+  "revenue_mismatches": 2700,
+  "sheet2_rows": 3692,
+  "sheet2_unique_urls": 3690,
+  "sheet2_exact_duplicates": 0,
+  "duplicate_url_extra_rows": 2,
+  "missing_cells": 0,
+  "zero_unit_rows": 983,
+  "seller_types": {
+    "Official Store": 3692
+  },
+  "period": "1–31 Agustus; tahun tidak tercantum dalam notebook/sumber CSV",
+  "analytical_source": "Sheet2, mengikuti notebook pengguna",
+  "source_urls": [
+    "https://raw.githubusercontent.com/Faiqazmi/Dataset_latihan/main/Serum%20Wajah%20_1-31%20August%20-%20Sheet1.csv",
+    "https://raw.githubusercontent.com/Faiqazmi/Dataset_latihan/main/Serum%20Wajah%20_1-31%20August%20-%20Sheet2.csv"
+  ],
+  "downloaded_at": "2026-10-15",
+  "sha256": {
+    "source_sheet1.csv": "de0ec5bab713dd13c335a451b32c200023aa8672de15dcfb2d55bb8784283160",
+    "source_sheet2.csv": "2c8d90087d248f71652a1c757b6802b23c3d7e8f6211a2bb049ea653f52e1e1a"
+  },
+  "transformation": "Trim kolom teks, title-case lokasi, cast kuantitas bulat; semua baris dan angka Sheet2 dipertahankan.",
+  "license": "Lisensi redistribusi tidak tercantum pada notebook; periksa izin pemilik sebelum publikasi ulang."
+}
